@@ -1,0 +1,316 @@
+[ 2015-07-16T09:01:12+08:00 ] ::1 /turingca/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.024401s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013678s ]
+SQL: SHOW COLUMNS FROM `tca_user` [ RunTime:0.0426s ]
+SQL: SELECT `id`,`lock` FROM `tca_user` WHERE `account` = 'admin' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 1 for replace_weibo(), called in D:\wamp\www\turingca\Application\Home\Controller\IndexController.class.php on line 7 and defined D:\wamp\www\turingca\Application\Home\Common\function.php 第 62 行.
+
+[ 2015-07-16T09:01:14+08:00 ] ::1 /turingca/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000769s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001198s ]
+NOTIC: [2] Missing argument 1 for replace_weibo(), called in D:\wamp\www\turingca\Application\Home\Controller\IndexController.class.php on line 7 and defined D:\wamp\www\turingca\Application\Home\Common\function.php 第 62 行.
+
+[ 2015-07-16T09:16:24+08:00 ] ::1 /turingca/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000726s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000973s ]
+NOTIC: [2] Missing argument 1 for replace_weibo(), called in D:\wamp\www\turingca\Application\Home\Controller\IndexController.class.php on line 7 and defined D:\wamp\www\turingca\Application\Home\Common\function.php 第 62 行.
+
+[ 2015-07-16T09:16:26+08:00 ] ::1 /turingca/index.php/Home/User/%E6%88%BF%E5%AE%81
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000542s ]
+SQL: SHOW COLUMNS FROM `tca_userinfo` [ RunTime:0.0685s ]
+SQL: SELECT `uid` FROM `tca_userinfo` WHERE `nickname` = '房宁' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-07-16T09:16:26+08:00 ] ::1 /turingca/index.php/Home/User/index/$uid/16.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.016401s ]
+INFO: [ app_end ] --END-- [ RunTime:0.016510s ]
+
+[ 2015-07-16T09:20:51+08:00 ] ::1 /turingca/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000636s ]
+NOTIC: [2] Missing argument 1 for replace_weibo(), called in D:\wamp\www\turingca\Application\Home\Controller\IndexController.class.php on line 7 and defined D:\wamp\www\turingca\Application\Home\Common\function.php 第 62 行.
+
+[ 2015-07-16T09:20:53+08:00 ] ::1 /turingca/index.php/Home/User/%E6%88%BF%E5%AE%81
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000550s ]
+SQL: SHOW COLUMNS FROM `tca_userinfo` [ RunTime:0.0054s ]
+SQL: SELECT `uid` FROM `tca_userinfo` WHERE `nickname` = '房宁' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-07-16T09:20:53+08:00 ] ::1 /turingca/index.php/Home/User/index/$uid/16.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000515s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000512s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000613s ]
+
+[ 2015-07-16T09:21:42+08:00 ] ::1 /turingca/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000598s ]
+NOTIC: [2] Missing argument 1 for replace_weibo(), called in D:\wamp\www\turingca\Application\Home\Controller\IndexController.class.php on line 7 and defined D:\wamp\www\turingca\Application\Home\Common\function.php 第 62 行.
+
+[ 2015-07-16T09:21:44+08:00 ] ::1 /turingca/index.php/Home/User/%E6%88%BF%E5%AE%81
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000588s ]
+SQL: SHOW COLUMNS FROM `tca_userinfo` [ RunTime:0.0052s ]
+SQL: SELECT `uid` FROM `tca_userinfo` WHERE `nickname` = '房宁' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-07-16T09:21:44+08:00 ] ::1 /turingca/index.php/Home/User/index/uid/16.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000408s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000351s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000484s ]
+
+[ 2015-07-16T09:22:07+08:00 ] ::1 /turingca/index.php/Home/User/index/uid/16.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000574s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000452s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000554s ]
+
+[ 2015-07-16T09:22:36+08:00 ] ::1 /turingca/index.php/Home/User/index/uid/16.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000740s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000865s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001064s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000889s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001074s ]
+
+[ 2015-07-16T09:22:57+08:00 ] ::1 /turingca/index.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000519s ]
+NOTIC: [2] Missing argument 1 for replace_weibo(), called in D:\wamp\www\turingca\Application\Home\Controller\IndexController.class.php on line 7 and defined D:\wamp\www\turingca\Application\Home\Common\function.php 第 62 行.
+
+[ 2015-07-16T09:22:58+08:00 ] ::1 /turingca/index.php/Home/User/%E6%88%BF%E5%AE%81
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000526s ]
+SQL: SHOW COLUMNS FROM `tca_userinfo` [ RunTime:0.0055s ]
+SQL: SELECT `uid` FROM `tca_userinfo` WHERE `nickname` = '房宁' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-07-16T09:22:58+08:00 ] ::1 /turingca/index.php/Home/User/index/uid/16.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000467s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000371s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000468s ]
+
+[ 2015-07-16T09:23:17+08:00 ] ::1 /turingca/index.php/Home/User/index/uid/16.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000651s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000938s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000700s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000864s ]
+
+[ 2015-07-16T09:24:52+08:00 ] ::1 /turingca/index.php/Home/id
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000382s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000634s ]
+ERR: 无法加载控制器:Id
+
+[ 2015-07-16T09:24:59+08:00 ] ::1 /turingca/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000617s ]
+NOTIC: [2] Missing argument 1 for replace_weibo(), called in D:\wamp\www\turingca\Application\Home\Controller\IndexController.class.php on line 7 and defined D:\wamp\www\turingca\Application\Home\Common\function.php 第 62 行.
+
+[ 2015-07-16T09:25:00+08:00 ] ::1 /turingca/index.php/Home/User/%E6%88%BF%E5%AE%81
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000552s ]
+SQL: SHOW COLUMNS FROM `tca_userinfo` [ RunTime:0.0057s ]
+SQL: SELECT `uid` FROM `tca_userinfo` WHERE `nickname` = '房宁' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-07-16T09:25:00+08:00 ] ::1 /turingca/index.php/Home/User/index/uid/16.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000519s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000439s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000532s ]
+
+[ 2015-07-16T09:26:50+08:00 ] ::1 /turingca/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000550s ]
+NOTIC: [2] Missing argument 1 for replace_weibo(), called in D:\wamp\www\turingca\Application\Home\Controller\IndexController.class.php on line 7 and defined D:\wamp\www\turingca\Application\Home\Common\function.php 第 62 行.
+
+[ 2015-07-16T09:26:52+08:00 ] ::1 /turingca/index.php/Home/User/%E6%88%BF%E5%AE%81
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000571s ]
+SQL: SHOW COLUMNS FROM `tca_userinfo` [ RunTime:0.0053s ]
+SQL: SELECT `uid` FROM `tca_userinfo` WHERE `nickname` = '房宁' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-07-16T09:26:52+08:00 ] ::1 /turingca/index.php/Home/User/index/uid/16.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000520s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000621s ]
+
+[ 2015-07-16T09:43:34+08:00 ] ::1 /turingca/index.php/Home/16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000601s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000532s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000640s ]
+
+[ 2015-07-16T09:44:37+08:00 ] ::1 /turingca/index.php/Home/16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+
+[ 2015-07-16T09:45:33+08:00 ] ::1 /turingca/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000710s ]
+NOTIC: [2] Missing argument 1 for replace_weibo(), called in D:\wamp\www\turingca\Application\Home\Controller\IndexController.class.php on line 7 and defined D:\wamp\www\turingca\Application\Home\Common\function.php 第 62 行.
+
+[ 2015-07-16T09:45:35+08:00 ] ::1 /turingca/index.php/Home/User/%E6%88%BF%E5%AE%81
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000470s ]
+SQL: SHOW COLUMNS FROM `tca_userinfo` [ RunTime:0.0056s ]
+SQL: SELECT `uid` FROM `tca_userinfo` WHERE `nickname` = '房宁' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-07-16T09:45:35+08:00 ] ::1 /turingca/index.php/Home/User/index/uid/16.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000512s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000427s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000521s ]
+
+[ 2015-07-16T09:45:47+08:00 ] ::1 /turingca/index.php/16.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000420s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000520s ]
+
+[ 2015-07-16T09:46:15+08:00 ] ::1 /turingca/index.php/16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000527s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000658s ]
+
+[ 2015-07-16T16:55:09+08:00 ] ::1 /turingca/index.php/Home/Index/turn.html
+ERR: 非法操作:turn
+
+[ 2015-07-16T16:55:15+08:00 ] ::1 /turingca/index.php/Home/Index/turn.html
+ERR: 非法操作:turn
+

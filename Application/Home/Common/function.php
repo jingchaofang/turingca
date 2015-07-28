@@ -1,0 +1,86 @@
+<?php
+/**
+ *格式化打印数组
+ */
+function p($arr){
+	echo "<pre>";
+	print_r($arr);
+	echo "</pre>";
+}
+/**
+ * 异位或加密字符串
+ * @param  [String] $value [需要加密的字符串]
+ * @param  [integer] $type [0:加密;1:解密]
+ * @return [String]		[加密或解密后的字符串]
+ */
+function encryption($value,$type=0){
+	$key=md5(C('ENCRYPTION_KEY'));
+	if(!$type){
+	return str_replace('=','',base64_encode($value^$key));
+	}else{
+	$value=base64_decode($value);
+	return $value^$key;
+	}
+}
+/**
+ * 格式化时间戳
+ * @param  [type] $time [要格式化的时间戳]
+ * @return [type]       [description]
+ */
+function time_format($time){
+	//当前时间
+	$now=time();
+	//今天0时0分0秒
+	$today=strtotime(date('y-m-d',$now));
+	//传递时间与当前时秒相差秒数
+	$diff=$now-$time;
+	$str='';
+	switch($time){
+		case $diff<60:
+		$str=$diff.'秒前';
+		break;
+		case $diff<3600:
+		$str=floor($diff/60).'分钟前';
+		break;
+		case $diff<3600*8:
+		$str=floor($diff/3600).'小时前';
+		break;
+		case $time>$today:
+		$str='今天&nbsp;&nbsp;'.date('H:i',$time);
+		break;
+		default:
+		$str=date('Y-m-d H:i:s',$time);
+	}
+	return $str;
+}
+
+/**
+ * 替换微博内容的URL地址、@用户与表情
+ * @param  [String] $content [需要处理的微博字符串]
+ * @return [type]          [处理完成后的字符串]
+ */
+function replace_weibo($content){
+	if(empty($content)) return;
+	//给URL地址加上<a>链接
+	$pattern="/(?:https?:\/\/)?([\w.]+[.][\w\/]*[\w.]*[\w\/]*\??[\w=\&\+\%\-\#]*)/is";
+	$content=preg_replace($pattern, '<a href="http://\\1" target="_blank">\\1</a>', $content);
+	//给@用户加上<a>链接
+	
+	$pattern="/@(\S+)\s/is";
+	$content=preg_replace($pattern,'<a href="'.__MODULE__.'/User/\\1">@\\1</a>', $content);
+	//提取微博内容中所有表情文件
+	$pattern="/\[([^\]]+)\]/is";
+	preg_match_all($pattern, $content, $arr);
+	//载入表情包数组文件
+	$phiz = include './Public/Data/phiz.php';
+	if(!empty($arr[1])){
+		foreach ($arr[1] as $k => $v) {
+			$name=array_search($v,$phiz);
+			if($name){
+				$content=str_replace($arr[0][$k], '<img src="'.__ROOT__.
+				'/Public/Images/phiz/'.$name.'.gif" title="'.$v.'"/>', $content);
+			}
+		}
+	}
+	return $content;
+}

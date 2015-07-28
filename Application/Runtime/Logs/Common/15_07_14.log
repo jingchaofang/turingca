@@ -1,0 +1,24 @@
+[ 2015-07-14T16:52:59+08:00 ] ::1 /turingca/index.php/User/index/uname/%E6%88%BF%E6%95%AC%E8%B6%85
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+ERR: 无法加载模块:User
+
+[ 2015-07-14T16:53:03+08:00 ] ::1 /turingca/index.php/User/index/uname/%E6%88%BF%E6%95%AC%E8%B6%85
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000634s ]
+ERR: 无法加载模块:User
+
+[ 2015-07-14T17:04:48+08:00 ] ::1 /turingca/index.php/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+ERR: 无法加载模块:User
+
+[ 2015-07-14T20:38:36+08:00 ] ::1 /turingca/index.php/%E6%88%BF%E6%95%AC%E8%B6%85
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+ERR: 无法加载模块:房敬超
+

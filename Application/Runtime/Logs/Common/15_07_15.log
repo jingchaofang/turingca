@@ -1,0 +1,6 @@
+[ 2015-07-15T20:52:44+08:00 ] ::1 /turingca/index.php/User/index/$uid/16.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000543s ]
+ERR: 无法加载模块:User
+

@@ -22,6 +22,6 @@ class WeiboViewModel extends ViewModel {
 				}
 			}
 		}
-		p($result);die;
+		return $result;
 	}
 }
